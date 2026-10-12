@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff0f5">
+  <title>Для самой лучшей сестры 💗</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="glow glow-one"></div>
+  <div class="glow glow-two"></div>
+
+  <main class="card">
+    <div class="topline">✦ ОСОБЕННОЕ ПОЗДРАВЛЕНИЕ ✦</div>
+    <div class="hero" aria-hidden="true">
+      <span class="spark spark-a">✦</span>
+      <span class="spark spark-b">♡</span>
+      <div class="gift-illustration">
+        <div class="gift-lid"></div>
+        <div class="gift-box"><div class="ribbon"></div></div>
+        <div class="bow bow-left"></div><div class="bow bow-right"></div>
+      </div>
+      <span class="spark spark-c">✧</span>
+    </div>
+
+    <p class="eyebrow">Для моей любимой сестрёнки</p>
+    <h1>Ты заслуживаешь<br><span>всего самого лучшего!</span></h1>
+    <p class="message">
+      Желаю тебе счастья,ЗДОРОВЬЯ, радости и исполнения всех твоих мечт. 
+      Ты — невероятный человек, и я горжусь тем, что ты моя сестра💕.
+    </p>
+
+    <div class="divider"><span>♥</span></div>
+    <p class="gift-hint">А теперь — самое интересное…</p>
+    <button id="claimButton" class="claim-button" type="button">
+      <span>Забрать подарок</span><span class="button-heart">♡</span>
+    </button>
+    <p class="small-note">Нажми — у меня для тебя сюрприз ✨</p>
+    <div class="footer-hearts" aria-hidden="true">♡　♡　♡</div>
+  </main>
+
+  <div class="modal-backdrop" id="giftModal" hidden>
+    <section class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="close-button" id="closeModal" type="button" aria-label="Закрыть">×</button>
+      <div class="modal-icon" aria-hidden="true">🎁</div>
+      <p class="modal-kicker">УРА, ЭТО ТВОЁ!</p>
+      <h2 id="modalTitle">Подарок уже в пути!</h2>
+      <p class="modal-message">Сегодня тебе привезут подарок. 💗</p>
+      <div class="delivery-line"><span class="delivery-dot"></span> Готовься к сюрпризу</div>
+      <button class="okay-button" id="okayButton" type="button">Жду с нетерпением!</button>
+      <p class="modal-footnote">Обнимаю тебя крепко-крепко ♡</p>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
